@@ -1,6 +1,6 @@
 Name:           libmimic
 Version:        1.0.4
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Encoding/decoding library for Mimic V2.x
 Group:          System Environment/Libraries
 License:        LGPLv2+
@@ -55,6 +55,9 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
+* Thu Nov 17 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.0.4-8
+- Rebuilt for DeskOS
+
 * Sun Mar 02 2014 Hans de Goede <j.w.r.degoede@gmail.com> - 1.0.4-7
 - Stop using pre-built docs (rf3114)
 
